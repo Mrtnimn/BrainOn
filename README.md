@@ -2,7 +2,7 @@
 A web app for any academic learners providing an online immersive study experience for personal, interactive group discussions and tutoring sessions - for the modern-day scholar!
 
 ## Can this repo host a full-stack app with Supabase, payments, monitoring, Vercel, and video?
-Short answer: yes, the codebase can be extended to a production-grade full stack. I need your credentials, service choices, and domain setup to do it. I can write the Next.js (14/TS) front end, wire Supabase auth/database, integrate a payment SDK (e.g., Stripe), hook an APM/monitoring SDK (e.g., Sentry), add a video SDK (e.g., LiveKit/Daily/Jitsi), and produce deployment-ready configs for Vercel with your custom domain. You provide the secrets and service choices; I cannot create or manage cloud accounts, purchase domains, or generate live API keys.
+Short answer: yes, the codebase can be extended to a production-grade full stack. You provide credentials, service selections, and domain setup. I will build the Next.js front end and wire in Supabase, payments, monitoring, video, and Vercel configs. You retain control of accounts and keys; I cannot purchase domains or generate live API keys.
 
 ### Pros (what I can do here)
 - Ship production-quality Next.js/React code with Supabase already available in the stack.
@@ -21,7 +21,7 @@ Give a single prompt that includes:
 2) Required user roles and their key journeys.
 3) Data model outline and any access rules.
 4) Chosen services:
-   - Supabase: project URL and key(s).
+   - Supabase: project URL plus anon key (and service role key if server-side tasks are needed).
    - Payments: provider (e.g., Stripe) plus products/plans.
    - Monitoring: provider (e.g., Sentry) and desired signals.
    - Video: provider (e.g., LiveKit/Daily/Jitsi) and room/recording requirements.
