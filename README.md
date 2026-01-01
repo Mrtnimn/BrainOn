@@ -2,7 +2,7 @@
 A web app for any academic learners providing an online immersive study experience for personal, interactive group discussions and tutoring sessions - for the modern-day scholar!
 
 ## Can this repo host a full-stack app with Supabase, payments, monitoring, Vercel, and video?
-Short answer: yes, the codebase can be extended to a production-grade full stack, but I need your credentials, choices, and domain setup to do it. I can write the Next.js (14/TS) front end, wire Supabase auth/database, integrate a payment SDK (e.g., Stripe), hook an APM/monitoring SDK (e.g., Sentry), add a video SDK (e.g., LiveKit/Daily/Jitsi), and produce deployment-ready configs for Vercel with your custom domain. I cannot create or manage cloud accounts, purchase domains, or generate live API keys; you provide those secrets and service choices, and I’ll plug them in.
+Short answer: yes, the codebase can be extended to a production-grade full stack. I need your credentials, service choices, and domain setup to do it. I can write the Next.js (14/TS) front end, wire Supabase auth/database, integrate a payment SDK (e.g., Stripe), hook an APM/monitoring SDK (e.g., Sentry), add a video SDK (e.g., LiveKit/Daily/Jitsi), and produce deployment-ready configs for Vercel with your custom domain. You provide the secrets and service choices; I cannot create or manage cloud accounts, purchase domains, or generate live API keys.
 
 ### Pros (what I can do here)
 - Ship production-quality Next.js/React code with Supabase already available in the stack.
@@ -20,7 +20,12 @@ Give a single prompt that includes:
 1) Target industry and core use case.
 2) Required user roles and their key journeys.
 3) Data model outline and any access rules.
-4) Chosen services: Supabase project URL/key, payment provider (e.g., Stripe) + products/plans, monitoring (e.g., Sentry), video provider (e.g., LiveKit/Daily/Jitsi) + room requirements, email/SMS provider if needed.
+4) Chosen services:
+   - Supabase: project URL and key(s).
+   - Payments: provider (e.g., Stripe) plus products/plans.
+   - Monitoring: provider (e.g., Sentry) and desired signals.
+   - Video: provider (e.g., LiveKit/Daily/Jitsi) and room/recording requirements.
+   - Messaging (optional): email/SMS provider if needed.
 5) Deployment target (Vercel) and custom domain details; note if edge/functions are preferred.
 6) Security/compliance expectations (e.g., audit logs, PII handling, rate limits).
 7) UI/brand constraints and any must-have integrations.
